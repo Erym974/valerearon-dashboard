@@ -1,0 +1,18 @@
+{
+  "kind": "collectionType",
+  "collectionName": "formule_includes",
+  "info": {
+    "singularName": "formule-include",
+    "pluralName": "formule-includes",
+    "displayName": "formule-include"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    }
+  }
+}

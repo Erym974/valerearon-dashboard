@@ -1,0 +1,18 @@
+{
+  "kind": "singleType",
+  "collectionName": "formules",
+  "info": {
+    "singularName": "formule",
+    "pluralName": "formules",
+    "displayName": "formule"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "description": {
+      "type": "string"
+    }
+  }
+}

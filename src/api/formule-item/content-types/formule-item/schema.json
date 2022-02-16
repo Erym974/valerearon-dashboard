@@ -1,0 +1,37 @@
+{
+  "kind": "collectionType",
+  "collectionName": "formule_items",
+  "info": {
+    "singularName": "formule-item",
+    "pluralName": "formule-items",
+    "displayName": "formule-item",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "price": {
+      "type": "decimal"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ]
+    },
+    "formule_includes": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::formule-include.formule-include"
+    }
+  }
+}
